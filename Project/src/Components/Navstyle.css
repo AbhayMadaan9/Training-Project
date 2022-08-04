@@ -1,0 +1,90 @@
+/* NAVIGATION BAR */
+.container1
+{
+    margin: 10px;
+    color: black;
+}
+
+.container1 ul
+{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container1 ul li:nth-child(1)
+{
+    margin-left: 0;
+}
+.container1 ul li:nth-child(1) img
+{
+    width: 200px;
+
+}
+.container1 ul li:nth-child(2)
+{
+    margin: auto;
+}
+.container1 ul li:nth-child(2) input
+{
+    border: 0.5px solid black;
+    width: 400px;
+    height: 30px;
+}
+.container1 ul li:nth-child(2) button
+{
+    border: 0px;
+    background-color: #03e9f7; 
+    height: 30px;
+    width: 100px;
+}
+.container1 ul li:nth-child(3)
+{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.container1 ul li:nth-child(4)
+{
+    margin-right: 30px;
+    margin-left: 0;
+}
+.container1 ul li:nth-child(3):hover
+{
+   cursor: pointer;
+   text-decoration: none;
+   
+}
+.container1 ul li:nth-child(4):hover
+{
+   cursor: pointer;
+}
+
+.container2
+{
+    margin: 35px;
+    text-decoration: none;
+    color: black;
+    
+}
+.container2 ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container2 ul li
+{
+    margin: auto;
+    text-decoration: none;
+}
+.container2 ul li:hover
+{
+    cursor: pointer;
+    text-decoration-color: #03e9f7;
+}
+
+
+
+
+
