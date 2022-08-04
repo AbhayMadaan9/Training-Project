@@ -29,7 +29,7 @@ export default function Products() {
                                         <p>Ubtan Face Wash with Turmeric  Saffron for Tan Removal – 150 ml</p>
                                         <p>Removes Tan | brightness Skin</p>
                                         <i class="fa-solid fa-star" style={{color:'gold', marginLeft:'40px'}}></i>4.7 | <i class="fa-duotone fa-badge-check">500 reviews</i>
-                                        <h2>$15</h2>
+                                        <h3>$15</h3>
                                     </div>
                                 </div>
                             </div>
@@ -52,9 +52,9 @@ export default function Products() {
                                 <div className="card-body">
                                     <div className="card-text">
                                         <p>Onion Hair Oil for Hair Regrowth and Hair Fall Control with Redensyl, 150ml</p>
-                                        <h1>Boosts Hair Growth | Adds Strength  Shine</h1>
-                                        <i class="fa-solid fa-star">4.7</i> | <i class="fa-duotone fa-badge-check">500 reviews</i>
-                                        <h2>$12</h2>
+                                        <p>Boosts Hair Growth | Adds Strength  Shine</p>
+                                        <i class="fa-solid fa-star"  style={{color:'gold', marginLeft:'40px'}}></i>4.7 | <i class="fa-duotone fa-badge-check">500 reviews</i>
+                                        <h4>$12</h4>
                                     </div>
 
                                 </div>
@@ -68,9 +68,9 @@ export default function Products() {
                                 <div className="card-body">
                                     <div className="card-text">
                                         <p>Ubtan Face Wash with Turmeric  Saffron for Tan Removal  150 ml</p>
-                                        <h1>Removes Tan | brightness Skin</h1>
-                                        <i class="fa-solid fa-star">4.7</i> | <i class="fa-duotone fa-badge-check">500 reviews</i>
-                                        <h2>$15</h2>
+                                        <p>Removes Tan | brightness Skin</p>
+                                        <i class="fa-solid fa-star"  style={{color:'gold', marginLeft:'40px'}}></i>4.2 | <i class="fa-duotone fa-badge-check">500 reviews</i>
+                                        <h3>$15</h3>
                                     </div>
                                 </div>
                             </div>
@@ -80,9 +80,9 @@ export default function Products() {
                                 <div className="card-body">
                                     <div className="card-text">
                                         <p>Onion Shampoo with Onion and Plant Keratin for Hair Fall Control - 250ml</p>
-                                        <h1>Reduces Hair Fall | Strengthens Hair |Softens Hair</h1>
-                                        <i class="fa-solid fa-star">4.7</i> | <i class="fa-duotone fa-badge-check">500 reviews</i>
-                                        <h2>$13</h2>
+                                        <p>Reduces Hair Fall | Strengthens Hair |Softens Hair</p>
+                                        <i class="fa-solid fa-star"  style={{color:'gold', marginLeft:'40px'}}></i>4.2 | <i class="fa-duotone fa-badge-check">500 reviews</i>
+                                        <h4>$13</h4>
                                     </div>
 
                                 </div>
@@ -93,9 +93,9 @@ export default function Products() {
                                 <div className="card-body">
                                     <div className="card-text">
                                         <p>Onion Hair Oil for Hair Regrowth and Hair Fall Control with Redensyl, 150ml</p>
-                                        <h1>Boosts Hair Growth | Adds Strength  Shine</h1>
-                                        <i class="fa-solid fa-star">4.7</i> | <i class="fa-duotone fa-badge-check">500 reviews</i>
-                                        <h2>$12</h2>
+                                        <p>Boosts Hair Growth | Adds Strength  Shine</p>
+                                        <i class="fa-solid fa-star"  style={{color:'gold', marginLeft:'40px'}}></i>4.2 | <i class="fa-duotone fa-badge-check">500 reviews</i>
+                                        <h4>$12</h4>
                                     </div>
 
                                 </div>
