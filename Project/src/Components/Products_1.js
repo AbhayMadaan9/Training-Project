@@ -20,7 +20,7 @@ export default function Products() {
                         <li data-target='mycarousel' data-slide-to='1' ></li>
                     </ol>
                     <div className="carousel-inner" role='listbox'>
-                        <div className="item">
+                        <div className="carousel-item active">
 
                             <div className="card">
                                 <img src="https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1_2.jpg?auto=compress&fit=scale&w=400&h=400" alt="Product" className='card-img-top' />
@@ -61,7 +61,7 @@ export default function Products() {
                             </div>
 
                         </div>
-                        <div className="item">
+                        <div className="carousel-item">
 
                             <div className="card">
                                 <img src="https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1_2.jpg?auto=compress&fit=scale&w=400&h=400" alt="Product" className='card-img-top' />

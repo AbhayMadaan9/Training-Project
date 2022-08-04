@@ -12,7 +12,7 @@ export default function () {
           <li><a for='/'><i class="fa-solid fa-user-plus" style={{color:'blue'}}></i>Login</a></li>
         </ul>
     </div>
-    <hr/>
+    {/* <hr/> */}
     <div className='container2'>
       <ul>
         <li><a for='/'>Home</a></li>
@@ -26,7 +26,7 @@ export default function () {
         <li><a for='/'>BLOG</a></li>
       </ul>
     </div>
-    <hr/>
+    {/* <hr/> */}
     </>
   )
 }

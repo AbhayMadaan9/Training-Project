@@ -1,7 +1,7 @@
 /* NAVIGATION BAR */
 .container1
 {
-    margin: 10px;
+    /* margin: 10px; */
     color: black;
 }
 
@@ -61,7 +61,7 @@
 
 .container2
 {
-    margin: 35px;
+    /* margin: 35px; */
     text-decoration: none;
     color: black;
     
@@ -76,7 +76,7 @@
 .container2 ul li
 {
     margin: auto;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 .container2 ul li:hover
 {

@@ -1,0 +1,5 @@
+.container-fluid h2:hover
+{
+    text-decoration: underline;
+    transition: underline 2s 0s;
+}
