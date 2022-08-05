@@ -1,7 +1,70 @@
-.container-fluid h2:hover
+
+#container1
 {
-    text-decoration: underline;
-    transition: underline 5s 2s;
+    background: linear-gradient(white, #76ff7a);
 }
+
+.heading
+{
+    margin-left: 480px;
+    margin-right: 480px;
+} 
+
+
+#container1 .heading h3
+{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+/* .container-fluid .heading h3::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+
+     animation  Properties
+
+    transform: scale(0,1); 
+    transition: transform 1s ease;
+}  */
+#container1 h3::after:hover
+{
+    /* transform: scale(1, 1); */
+    text-decoration: underline;
+}
+#container2 .card-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-inline: 20px;
+}
+#container2 .card
+{
+    background-color: white;
+    width:  350px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+#container2 .card .card-text p
+{
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: 500;
+    font-size: medium;
+}
+#container2 .card .card-body img
+{
+    height: 100px;
+    margin: 50px auto 50px 30px;   
+}
+
 
 
