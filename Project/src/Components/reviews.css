@@ -38,12 +38,16 @@
     /* transform: scale(1, 1); */
     text-decoration: underline;
 }
+#container2
+{
+    height: 400px;
+}
 #container2 .card-wrapper
 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-inline: 20px;
+    margin-top: 50px;
 }
 #container2 .card
 {
@@ -51,7 +55,8 @@
     width:  350px;
     height: 300px;
     border-radius: 10px;
-    
+    margin-inline: 20px;
+    box-shadow: 3px 3px 3px 2px #414a4c;
 }
 #container2 .card .card-text p
 {
@@ -65,6 +70,11 @@
     height: 100px;
     margin: 50px auto 50px 30px;   
 }
+#container2 .card:nth-child(2):hover
+{ 
+    transform: scale(10px, 10px);
+}
+
 
 
 
