@@ -10,6 +10,7 @@ import Products_5 from './Components/Products_5';
 import Products_6 from './Components/Products_6';
 import Reviews from './Components/Reviews';
 import Blog from './Components/Blog';
+import Footer from './Components/Footer';
 import React from 'react'
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <Products_5/>
     <Products_6/>
     <Reviews/>
+    <Footer/>
     <Blog/>
     </>
   );

@@ -1,0 +1,20 @@
+.container .table1 .row
+{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.container .table1 .row .col-lg-4 p:nth-child(1)
+{
+    margin: 20px auto auto 50px;
+}
+/* NOT WORKING */
+/* .container .table1 .row .col-lg-4 p:nth-child(2)
+{
+    margin: 15px auto auto 50px;
+} */
+/* .container .table1 .row .col-lg-4 h4
+{
+    
+}  */
+
+
