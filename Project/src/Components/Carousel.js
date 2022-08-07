@@ -2,7 +2,7 @@ import React from 'react'
 export default function () {
   return (
     <>
-    <div className="container" style={{margin:'auto', padding:'0'}}>  
+    <div className="container-fluid" style={{margin:'auto', padding:'0'}}>  
   <div id="myCarousel" className="carousel slide" data-ride="carousel">
     
     <ol className="carousel-indicators">
