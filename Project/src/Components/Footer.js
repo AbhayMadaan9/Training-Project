@@ -19,8 +19,7 @@ export default function Footer() {
                             <p style={{margin:'5px auto auto 25px', fontWeight:'lighter', fontSize:'small'}}>@ Rs. 40 Per Order</p>
                         </div>
                         <div className="col-lg-4">
-                            <h4>Have Queries Or Concerns</h4>
-                            <button>Contact Us</button>
+                            
                         </div>
 
                     </div>
