@@ -1,0 +1,8 @@
+.container table 
+{
+    margin: 20px;
+}
+.container table tr th
+{
+    margin: 10px 10px 10px 10px;
+}
