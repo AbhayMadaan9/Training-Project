@@ -11,21 +11,40 @@ import Products_6 from './Components/Products_6';
 import Reviews from './Components/Reviews';
 import Blog from './Components/Blog';
 import Footer1_0 from './Components/Footer1_0';
+import Baby_products from './Components/Baby_products'
+import Beauty_products from './Components/Beauty_products'
+import Hair_products from './Components/Hair_products'
+import Face_products from './Components/Face_products'
+import Body_products from './Components/Body_products'
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import React from 'react'
+
 function App() {
   return (
-<>
-    <Navbar/>
-    <Carousel/>
-    <Products_1/>
-    <Products_2/>
-    <Products_3/>
-    <Products_4/>
-    <Products_5/>
-    <Products_6/>
-    <Reviews/>
-    <Footer1_0/>
-    <Blog/>
+
+    <>
+    <Router>
+        <Routes>
+        {/* <Route exact path='' element={<App/>}></Route> */}
+          <Route  path='/Baby_products' element={<Baby_products />}></Route>
+          <Route exact path='/Beauty_products' element={<Beauty_products />}></Route>
+          <Route exact path='/Hair_products' element={<Hair_products />}></Route>
+          <Route exact path='/Face_products' element={<Face_products />}></Route>
+          <Route exact path='/Body_products' element={<Body_products />}></Route>
+          <Route exact path='/Blog' element={<Blog />}></Route>
+        </Routes>
+      </Router>
+      <Navbar />
+      <Carousel />
+      <Products_1 />
+      <Products_2 />
+      <Products_3 />
+      <Products_4 />
+      <Products_5 />
+      <Products_6 />
+      <Reviews />
+      <Footer1_0 />
+      <Blog />
     </>
   );
 }

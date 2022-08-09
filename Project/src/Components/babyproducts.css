@@ -1,0 +1,48 @@
+
+#cont-fld hr
+{
+    border: .5px solid black;
+}
+
+#cont-fld h2
+{
+    text-align: center;
+}
+#cont-fld .container ul
+{
+    list-style: none; 
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#cont-fld ul li .card
+{
+    width: 400px;
+    margin: 20px 40px 20px 20px;
+}
+#cont-fld .col-lg-6 h3, p
+{
+    text-align: center;
+}
+#cont-fld .col-lg-6 img
+{
+    width: 100%;
+    height: auto;
+}
+#cont-fld .col-lg-6 .information p
+{
+    word-wrap: break-word;
+    text-align: justify;
+}
+#cont-fld .col-lg-6 .information p i
+{
+    margin: 5px;
+    color: gold;
+}
+#cont-fld .col-lg-6 .information p span
+{
+    color: #2727ff;
+}

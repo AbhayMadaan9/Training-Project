@@ -7,7 +7,7 @@ export default function Products() {
             <div className="row">
 
                 <div className="col-lg-4">
-                    <h2>Baby Products</h2>
+                    <h2>Body Products</h2>
                     <p>Explore the best-selling, natural,and 100% toxin-free adn beauty produdcts from Kushal Medical's.Get amazing deals and start your toxin.free skin , hair, and baby care journey</p>
                     <button type='button' className='btn1'>VIEW ALL</button>
 

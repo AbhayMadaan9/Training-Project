@@ -3,7 +3,7 @@ import './products.css'
 export default function Products() {
     return (
 
-        <div className="container1">
+        <div className="container1" id='product_container'>
             <div className="row">
 
                 <div className="col-lg-4">
@@ -14,10 +14,10 @@ export default function Products() {
                 </div>
 
                 <div className="col-lg-8">
-                    <div className="carousel slide" data-ride='carousel' id='mycarousel' />
+                    <div className="carousel slide" data-ride='carousel' id='caro' />
                     <ol className='carousel-indicators'>
-                        <li data-target='mycarousel' data-slide-to='0' className='active'></li>
-                        <li data-target='mycarousel' data-slide-to='1' ></li>
+                        <li data-target='#caro' data-slide-to='0' className='active'></li>
+                        <li data-target='#caro' data-slide-to='1' ></li>
                     </ol>
                     <div className="carousel-inner" role='listbox'>
                         <div className="carousel-item active">

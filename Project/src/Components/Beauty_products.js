@@ -7,7 +7,7 @@ export default function Baby_products() {
     <>
       <Navbar />
       <div className="container-fluid" id='cont-fld'>
-        <h2>Baby Products</h2>
+        <h2>Beauty Products</h2>
         <hr />
         <div className="container" id='cont-fld1'>
           <ul>
