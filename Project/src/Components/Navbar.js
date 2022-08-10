@@ -13,7 +13,7 @@ export default function () {
     <div className="container1">
         <ul>
           <li><a href='/'><img src="https://d2sj89osparb2a.cloudfront.net/images/media/mamaearth-logo.png" alt='logo'/></a></li>
-          <li><a href='/'><input type='text' placeholder='Search for products...'/><buthrefn><i class="fa-solid fa-magnifying-glass"></i>Search</buthrefn></a></li>
+          <li><a href='/'><input type='text' placeholder='Search for products...'/><button><i class="fa-solid fa-magnifying-glass"></i>Search</button></a></li>
           <li><a href='/'><i class="fa-solid fa-cart-shopping fa-lg" style={{color:'black'}}></i>Cart</a></li>
           <li><a href='/'><i class="fa-solid fa-user-plus fa-lg" style={{color:'black'}}></i>Login</a></li>
         </ul>
