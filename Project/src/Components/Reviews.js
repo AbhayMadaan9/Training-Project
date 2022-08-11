@@ -1,6 +1,7 @@
 import React from 'react'
 import './reviews.css'
-export default function Reviews() {
+import PropTypes from 'prop-types';
+export default function Reviews(props) {
   return (
     <>
     <div className="container-fluid" id='container1'>
@@ -21,28 +22,28 @@ export default function Reviews() {
                   <div className="card">
                     <div className="card-body">
                       <div className="card-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit itaque nesciunt, eum commodi eos necessitatibus adipisci, modi sint provident iste accusantium alias quisquam maiores ex perferendis, eius quo optio!</p> 
+                        <p>{props.description}</p> 
                       </div>
                       <img src="https://mamaearthp.imgix.net/wysiwyg/Priyanshi_Singh_gHqZqXk.jpg?auto=format" alt="customer img" className='img-circle'/>&nbsp;&nbsp;&nbsp;
-                      <strong>Ramesh Rani</strong> <span style={{color:'white', background:'#00ff7f'}}>4.6<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
+                      <strong>{props.name}</strong> <span style={{color:'white', background:'#00ff7f'}}>{props.stars}<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
                     </div>
                   </div>
                   <div className="card">
                     <div className="card-body">
                       <div className="card-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit itaque nesciunt, eum commodi eos necessitatibus adipisci, modi sint provident iste accusantium alias quisquam maiores ex perferendis, eius quo optio!</p> 
+                        <p>{props.description}</p> 
                       </div>
                       <img src="https://mamaearthp.imgix.net/wysiwyg/Priyanshi_Singh_gHqZqXk.jpg?auto=format" alt="customer img" className='img-circle'/>&nbsp;&nbsp;&nbsp;
-                      <strong>Ramesh Rani</strong> <span style={{color:'white', background:'#00ff7f'}}>4.6<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
+                      <strong>{props.name}</strong> <span style={{color:'white', background:'#00ff7f'}}>{props.stars}<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
                     </div>
                   </div>
                   <div className="card">
                     <div className="card-body">
                       <div className="card-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit itaque nesciunt, eum commodi eos necessitatibus adipisci, modi sint provident iste accusantium alias quisquam maiores ex perferendis, eius quo optio!</p> 
+                        <p>{props.description}</p> 
                       </div>
                       <img src="https://mamaearthp.imgix.net/wysiwyg/Priyanshi_Singh_gHqZqXk.jpg?auto=format" alt="customer img" className='img-circle'/>&nbsp;&nbsp;&nbsp;
-                      <strong>Ramesh Rani</strong> <span style={{color:'white', background:'#00ff7f'}}>4.6<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
+                      <strong>{props.name}</strong> <span style={{color:'white', background:'#00ff7f'}}>{props.stars}<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
                     </div>
                   </div>
                 </div>
@@ -53,28 +54,28 @@ export default function Reviews() {
                   <div className="card">
                     <div className="card-body">
                       <div className="card-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit itaque nesciunt, eum commodi eos necessitatibus adipisci, modi sint provident iste accusantium alias quisquam maiores ex perferendis, eius quo optio!</p> 
+                        <p>{props.description}</p> 
                       </div>
                       <img src="https://mamaearthp.imgix.net/wysiwyg/Priyanshi_Singh_gHqZqXk.jpg?auto=format" alt="customer img" className='img-circle'/>&nbsp;&nbsp;&nbsp;
-                      <strong>Ramesh Rani</strong> <span style={{color:'white', background:'#00ff7f'}}>4.6<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
+                      <strong>{props.name}</strong> <span style={{color:'white', background:'#00ff7f'}}>{props.stars}<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
                     </div>
                   </div>
                   <div className="card">
                     <div className="card-body">
                       <div className="card-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit itaque nesciunt, eum commodi eos necessitatibus adipisci, modi sint provident iste accusantium alias quisquam maiores ex perferendis, eius quo optio!</p> 
+                        <p>{props.description}</p> 
                       </div>
                       <img src="https://mamaearthp.imgix.net/wysiwyg/Priyanshi_Singh_gHqZqXk.jpg?auto=format" alt="customer img" className='img-circle'/>&nbsp;&nbsp;&nbsp;
-                      <strong>Ramesh Rani</strong> <span style={{color:'white', background:'#00ff7f'}}>4.6<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
+                      <strong>{props.name}</strong> <span style={{color:'white', background:'#00ff7f'}}>{props.stars}<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
                     </div>
                   </div>
                   <div className="card">
                     <div className="card-body">
                       <div className="card-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit itaque nesciunt, eum commodi eos necessitatibus adipisci, modi sint provident iste accusantium alias quisquam maiores ex perferendis, eius quo optio!</p> 
+                        <p>{props.description}</p> 
                       </div>
                       <img src="https://mamaearthp.imgix.net/wysiwyg/Priyanshi_Singh_gHqZqXk.jpg?auto=format" alt="customer img" className='img-circle'/>&nbsp;&nbsp;&nbsp;
-                      <strong>Ramesh Rani</strong> <span style={{color:'white', background:'#00ff7f'}}>4.6<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
+                      <strong>{props.name}</strong> <span style={{color:'white', background:'#00ff7f'}}>{props.stars}<i class="fa-solid fa-star" style={{color:'white'}}></i></span>
                     </div>
                   </div>
                 </div>
@@ -86,4 +87,12 @@ export default function Reviews() {
     </div>
     </>
   )
+}
+
+Reviews.PropTypes = {
+  description: PropTypes.string.isRequired,
+  // isRequired made compulsory to be that type
+  name: PropTypes.string.isRequired,
+  stars: PropTypes.number.isRequired
+
 }
