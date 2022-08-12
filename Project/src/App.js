@@ -17,11 +17,13 @@ import Hair_products from './Components/Hair_products'
 import Face_products from './Components/Face_products'
 import Body_products from './Components/Body_products'
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
-import React from 'react'
+import React, { useState } from 'react'
 
 function App() {
+  const [dark, setdark] = useState('true')
+  //decalration of dark state variable and initializing it as true
   return (
-
+    
     <>
     <Router>
         <Routes>
