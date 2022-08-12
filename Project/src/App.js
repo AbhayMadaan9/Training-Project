@@ -27,8 +27,7 @@ function App() {
     <>
     <Router>
         <Routes>
-        {/* <Route exact path='' element={<App/>}></Route> */}
-          <Route  path='/Baby_products' element={<Baby_products />}></Route>
+          <Route exact path='Baby_products' element={<Baby_products />}></Route>
           <Route exact path='/Beauty_products' element={<Beauty_products />}></Route>
           <Route exact path='/Hair_products' element={<Hair_products />}></Route>
           <Route exact path='/Face_products' element={<Face_products />}></Route>
@@ -44,9 +43,9 @@ function App() {
       <Products_4 />
       <Products_5 />
       <Products_6 />
-      <Reviews />
+      <Reviews description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate cupiditate nulla consequuntur, nihil accusamus quos quasi necessitatibus ipsa molestias. Asperiores ratione similique sapiente, ipsam recusandae dolorum repellat eos fugiat!" name="suresh Rani" stars = "4.8"/> 
       <Footer1_0 />
-      <Blog />
+      <Blog company_name="Kushal Medical's"/>
     </>
   );
 }
