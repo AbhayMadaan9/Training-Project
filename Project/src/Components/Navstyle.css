@@ -1,76 +1,83 @@
 /* NAVIGATION BAR */
-.container1
+
+body
 {
-    /* margin: 10px; */
+    margin: 0;
+    padding: 0;    
+}
+.navcontainer1
+{
+    margin: 15px 0px 25px 0px;
     color: black;
 }
 
-.container1 ul
+.navcontainer1 ul
 {
     display: flex;
     list-style: none;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.container1 ul li a
+.navcontainer1 ul li a
 {
     text-decoration: none;
     color: black;
 }
-.container1 ul li a:hover
+.navcontainer1 ul li a:hover
 {
     cursor: pointer;
 }
-.container1 ul li:nth-child(1)
+.navcontainer1 ul li:nth-child(1)
 {
     margin-left: 0;
 }
-.container1 ul li:nth-child(1) img
+.navcontainer1 ul li:nth-child(1) h2
 {
-    width: 200px;
-
+    color: #03e9f7;
 }
-.container1 ul li:nth-child(2)
+.navcontainer1 ul li:nth-child(2)
 {
     margin: auto;
 }
-.container1 ul li:nth-child(2) input
+.navcontainer1 ul li:nth-child(2) input
 {
     border: 0.5px solid black;
     width: 400px;
     height: 30px;
 }
-.container1 ul li:nth-child(2) button
+.navcontainer1 ul li:nth-child(2) button
 {
     border: 0px;
     background-color: #03e9f7; 
     height: 30px;
     width: 100px;
 }
-.container1 ul li:nth-child(3)
+.navcontainer1 ul li:nth-child(3)
 {
+    margin-top: 20px;
     margin-right: 20px;
     margin-left: 10px;
 }
-.container1 ul li:nth-child(4)
+.navcontainer1 ul li:nth-child(4)
 {
+    margin-top: 20px;
     margin-right: 30px;
     margin-left: 0;
 }
-.container1 ul li:nth-child(3):hover
+.navcontainer1 ul li:nth-child(3):hover
 {
    cursor: pointer;
    text-decoration: none;
    
 }
-.container1 ul li:nth-child(4):hover
+.navcontainer1 ul li:nth-child(4):hover
 {
    cursor: pointer;
 }
 
 .container2
 {
-    /* margin: 35px; */
+    margin: 45px 0px 30px 0px;
     text-decoration: none;
     color: black;
     position: relative;

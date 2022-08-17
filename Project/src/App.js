@@ -35,7 +35,7 @@ function App() {
           <Route exact path='/Blog' element={<Blog />}></Route>
         </Routes>
       </Router>
-      <Navbar />
+      <Navbar/>
       <Carousel />
       <Products_1 />
       <Products_2 />
